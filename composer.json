@@ -1,0 +1,12 @@
+{
+    "name": "dmitry-kirillov/otus-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "DmitryKirillov\\OtusComposerPackage\\": "src/"
+        }
+    },
+    "require": {
+	    "php": ">=8.2"
+    }
+}

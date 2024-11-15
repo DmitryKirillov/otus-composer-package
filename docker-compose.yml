@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+
+  php:
+    container_name: otus-php-composer-package--php
+    build:
+      context: ./docker/php
+    volumes:
+      - .:/var/www/app
